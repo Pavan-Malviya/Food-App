@@ -1,0 +1,99 @@
+body {
+    background: #100d0d;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    padding: 10px;
+    width: 50px;
+
+}
+
+
+.header {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: #020202;
+    border-radius: 1%;
+
+
+
+
+
+}
+
+.nav-item>ul {
+    list-style-type: none;
+    display: flex;
+
+
+
+}
+
+.nav-item>ul>li {
+    padding: 10px;
+    color: azure;
+}
+
+input {
+
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.card {
+
+
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(230, 180, 158);
+    color: rgb(231, 243, 243);
+    border: 2px solid rgb(13, 13, 13);
+    border-radius: 5%;
+    background: linear-gradient(102.7deg, rgb(253, 218, 255) 8.2%, rgb(223, 173, 252) 19.6%, rgb(173, 205, 252) 36.8%, rgb(173, 252, 244) 73.2%, rgb(202, 248, 208) 90.9%);
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+.flex {
+
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    gap: 20px;
+
+}
+
+.card>img {
+
+    width: 200px;
+    border-radius: 5%;
+    border: 1px solid rgb(37, 36, 65);
+
+}
+
+.h {
+
+    color: antiquewhite;
+}
+
+
+.btn {
+    width: 100px;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    margin-top: 20px;
+
+
+
+}

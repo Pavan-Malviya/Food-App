@@ -3,6 +3,7 @@ export const IMG_CDN_URL =
 
 export const shimmer_card_unit = 8;
 
+
 export const restaurantList = [
   {
     type: "restaurant",

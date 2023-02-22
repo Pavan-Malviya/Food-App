@@ -4,6 +4,7 @@ import { restaurantList } from "./constants";
 import Shimmer from "./Shimmer";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function filterData(searchText, restaurants) {
   const filterData = restaurants.filter((restaurant) =>
@@ -87,7 +88,7 @@ const Body = () => {
       ) : (
         <div className="flex">
           {filterRestaurants.map((restaurant) => {
-            return <Card {...restaurant.data} key={restaurant.data.id} />;
+            return <Link to={"/restaurant/" + restaurant.data.id} key={restaurant.data.id} style={{ textDecoration: "none" }}> <Card {...restaurant.data} /></Link>;
           })}
         </div>
       )}

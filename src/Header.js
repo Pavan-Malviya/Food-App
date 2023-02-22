@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <img
-        src="https://cdn-images-1.medium.com/max/1200/1*v5SYqjYEdQMPIwNduRrnCw.png"
+        src="https://png.pngtree.com/png-vector/20190904/ourmid/pngtree-sea-food-chef-fish-restaurant-mascot-or-character-logo-and-vector-png-image_1723598.jpg"
         className="logo"
       ></img>
       <h1 className="title"></h1>

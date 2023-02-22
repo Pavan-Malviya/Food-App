@@ -1,7 +1,7 @@
 const About = () => {
-    return <div>
-        <h1>d</h1>
-        <p>dgtfhg</p>
+    return <div className="about">
+        <h1>Food-App</h1>
+        <p>Founded in 2023</p>
     </div>;
 };
 

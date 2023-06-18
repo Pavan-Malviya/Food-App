@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IMG_CDN_URL } from "./constants";
+import { IMG_CDN_URL, requestUrl } from "./constants";
 import { restaurantList } from "./constants";
 import Shimmer from "./Shimmer";
 import { useState } from "react";
@@ -29,7 +29,7 @@ const Body = () => {
 
   async function getRestaurant() {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=20.7131695&lng=76.5650829&page_type=DESKTOP_WEB_LISTING"
+      requestUrl
     );
     // https://www.swiggy.com/dapi/restaurants/list/v5?lat=20.7131695&lng=76.5650829&page_type=DESKTOP_WEB_LISTING
 
